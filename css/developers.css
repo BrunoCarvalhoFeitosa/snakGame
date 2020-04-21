@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+body {
+  background: #000;
+}
+
+.name-Game a {
+  position: absolute;
+  margin: -10px 30px;
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+  text-decoration: none;
+  color: #FFF;
+  float: left;
+  -webkit-animation: animationLogo 1000ms linear infinite;
+  animation: animationLogo 1000ms linear infinite;
+}
+
+@-webkit-keyframes animationLogo {
+  50% {
+    -webkit-transform: scale(1.1, 1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(1.0, 1.0);
+  }
+}
+
+h2 {
+  position: relative;
+  top: 100px;
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+  color: #FFF;
+  text-align: center;
+}
+
+.grid-container {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  -moz-transform: translate(-50%, -70%);
+  -o-transform: translate(-50%, -70%);
+  -webkit-transform: translate(-50%, -70%);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.developers {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed #43CD80;
+  overflow: hidden;
+}
+
+.developers:hover {
+  transform: scale(1.07);
+  transition: all .7s ease-in;
+}
+
+.grid-item a img {
+  transform: translateY(15px);
+  -moz-transform: translateY(15px);
+  -o-transform: translateY(15px);
+  -webkit-transform: translateY(15px);
+  cursor: pointer;
+}
+
+::selection {
+  color: #000;
+  background: #FFF;
+}

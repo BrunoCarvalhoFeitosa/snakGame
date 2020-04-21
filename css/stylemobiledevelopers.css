@@ -1,0 +1,21 @@
+@media (min-width: 0px) and (max-width: 480px) {
+h2{
+	top: 120px;
+}
+.grid-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+.grid-item {
+padding: 8px;
+}
+.developers {
+	width: 100px;
+	height: 100px;
+}
+.social {
+	width: 30px;
+ }
+}

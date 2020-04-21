@@ -1,0 +1,10 @@
+@media (min-width: 0px) and (max-width: 480px) {
+@-webkit-keyframes efectSnake {
+    0%   {left:0px; top:0px;}
+    100% {width: 50px; left: 50%; top:0px; }
+}
+
+.social {
+	width: 30px;
+}
+}
